@@ -14,6 +14,7 @@
       "optionalDependencies": true,
       "peerDependencies": true
     }],
-    "react/require-default-props": 0
+    "react/require-default-props": 0,
+    "linebreak-style": 0
   }
 }

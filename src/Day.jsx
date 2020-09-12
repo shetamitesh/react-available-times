@@ -312,10 +312,11 @@ export default class Day extends PureComponent {
             start={start}
             end={end}
             active={typeof index !== 'undefined'}
-            onSizeChangeStart={this.handleSizeChangeStart}
+            //onSizeChangeStart={this.handleSizeChangeStart}
             onMoveStart={this.handleMoveStart}
             onDelete={this.handleDelete}
             touchToDelete={touchToDeleteSelection}
+            frozen
           />
         ))}
       </div>
